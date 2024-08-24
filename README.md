@@ -49,6 +49,11 @@ git clone https://github.com/KayllaneGPina/api-catalogos-receitas.git
 cd catalogo-receitas
 ```
 
+3. Construa e Rode a Imagem Docker
+```bash
+docker-compose up --build
+```
+
 ### 🧪 Testando com Swagger
 A aplicação inclui uma interface Swagger para facilitar o teste da API. Acesse o Swagger em: `http://localhost:8080/swagger-ui.html`
 
